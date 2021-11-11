@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Signup page</title>
+        <meta name="description" content="Source code generated using layoutit.com">
+        <meta name="author" content="LayoutIt!">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid bg">
+            <div class="row">
+                <div class="col-lg-7 col-md-7">
+                    <div class="logo">
+                        <img src="images/logo-black.png" alt="logo" class="img">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                    <p class="close-btn">
+                        &times;
+                    </p>
+                    <p class="close-text">Close</p>
+                </div>
+                <div class="col-md-12">
+                    <section class="contact-us-section">
+                        <div class="contact-us-right">
+                            <div class="contact-us-form-holder">
+                                <form action="{% url 'register' %}" method="POST">
+                                    <label class="lable">New Password</label>
+                                    <input
+                                        type="text"
+                                        placeholder="New Password"
+                                        name="username"
+                                        required
+                                    >
+                                    <label class="lab">Confirm Password</label>
+                                    <input
+                                        type="password"
+                                        placeholder="Confirm Password"
+                                        name="password"
+                                        required
+                                    >
+                                    <button class="button" type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
