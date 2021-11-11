@@ -231,7 +231,10 @@ body {
     height: auto;
     margin-bottom: 5%;
   }
-
+  .contact-us-section {
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
   .logo {
     text-align: center;
   }
@@ -243,79 +246,18 @@ body {
     font-size: 32px;
     margin-top: -26%;
   }
-
-  .image_conatiner {
-    width: 100%;
-  }
-  .heading {
-    font-size: 18px;
-  }
-
   .contact-us-form-holder input {
     font-size: 16px;
   }
   .contact-us-form-holder label {
     font-size: 16px;
   }
-
-  .terms {
-    font-size: 10px;
-  }
   .close-text {
     display: none;
   }
-
-  #linkedin {
-    height: 70%;
-    width: 70%;
-  }
-}
-
-.heading {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-}
-
-.divide {
-  text-align: center;
-  border-bottom: 1px solid black;
-  line-height: 0;
-  padding: 0;
-}
-
-.divide span {
-  background: #fff;
-  padding: 0 15px;
 }
 
 input[type="text"],
 input[type="email"] {
   margin-bottom: 2%;
-}
-
-input[type="password"] {
-  margin-bottom: 4%;
-}
-
-.terms {
-  font-size: 12px;
-  margin-top: 5%;
-}
-
-.icons-text {
-  font-size: 16px;
-  font-weight: 500;
-  margin-left: 10px;
-  margin-top: 18px;
-}
-
-#facebook {
-  height: 55%;
-  width: 20%;
-}
-
-#google {
-  height: 70%;
-  margin-top: 4%;
 }
