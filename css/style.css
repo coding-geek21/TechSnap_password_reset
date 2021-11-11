@@ -257,7 +257,6 @@ body {
   }
 }
 
-input[type="text"],
-input[type="email"] {
-  margin-bottom: 2%;
+input[type="password"] {
+  margin-bottom: 4%;
 }
