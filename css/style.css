@@ -13,6 +13,18 @@
   object-fit: contain;
 }
 
+.close-img {
+  text-align: right;
+}
+
+.close-img img {
+  width: 8%;
+  margin: 2%;
+}
+.close-text {
+  margin-right: 2%;
+}
+
 .bg {
   background-image: url("https://i.ibb.co/vD45swT/bg-img.jpg");
   height: 100%;
@@ -115,100 +127,21 @@ body {
   letter-spacing: 1px;
 }
 
-.contact-us-accounts {
-  width: 100%;
-  height: 20%;
-  color: #000;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.contact-us-accounts img {
-  width: 25px;
-  height: 25px;
-}
-.contact-us-social-media-buttons {
-  width: 30%;
-  height: 48px;
-  padding: 1.5%;
-  display: flex;
-  text-align: center;
-  text-decoration: none !important;
-  align-items: center;
-  justify-content: center;
-  border: solid 2px #e5e1da;
-  border-radius: 5px;
-  color: #000;
-}
-
-.contact-us-or-line {
-  margin-top: 5%;
-  width: 95%;
-  height: 20px;
-  position: relative;
-}
-
-.contact-us-footer {
-  width: 100%;
-  margin-top: 10px;
-  text-align: center;
-  font-weight: 500;
-  color: #000;
-  letter-spacing: 1px;
-}
-
-.contact-us-footer a {
-  font-weight: 500;
-  text-decoration: none;
-  color: rgb(252, 0, 210);
-}
-
-@media (min-width: 900px) {
-  .close-text {
-    text-align: end;
-    margin-top: -8%;
-    display: block;
-  }
-  .close-btn {
-    text-align: right;
-    font-size: 70px;
-    cursor: pointer;
-  }
-}
-
 @media (max-width: 900px) {
   .contact-us-section {
     flex-direction: column;
     height: auto;
   }
+
+  .logo {
+    text-align: center;
+  }
+
   .logo-img {
     text-align: center;
     width: 40%;
   }
-  .close-btn {
-    text-align: right;
-    font-size: 70px;
-    cursor: pointer;
-  }
 
-  .close-text {
-    text-align: end;
-    margin-top: -24%;
-    display: block;
-  }
-  .contact-us-left h1 {
-    font-size: 1.2rem;
-    height: 10%;
-    text-align: center;
-  }
-  .contact-us-left p {
-    display: none;
-  }
-  .contact-us-left {
-    width: 80%;
-    height: 5%;
-  }
   .contact-us-right {
     width: 450px;
     height: 75%;
@@ -216,13 +149,6 @@ body {
   .contact-us-form-holder {
     max-width: 95%;
     min-width: 95%;
-  }
-  .contact-us-accounts img {
-    width: 20px;
-    height: 20px;
-  }
-  .contact-us-accounts p {
-    margin-left: 5px;
   }
 }
 
@@ -243,10 +169,10 @@ body {
     width: 40%;
     margin-top: 8%;
   }
-  .close-btn {
-    font-size: 40px;
-    margin-top: -26%;
+  .close-img {
+    margin-top: -22%;
   }
+
   .contact-us-form-holder input {
     font-size: 16px;
   }
